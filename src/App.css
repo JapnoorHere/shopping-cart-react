@@ -20,7 +20,7 @@
 .warning{        
     height: 40px;
     width: 250px;
-    color: white;
+    color: rgb(251, 251, 251);
     background-color: rgb(255, 83, 83);
     border-radius: 10px;
     display: flex;
