@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.messageAndWarning{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    position: sticky;
+    top: 10%;
+    right: 0;
+    z-index: 1;
+    width: 95%;
+    align-items: flex-end;
+    }
+    
+.warning{        
+    height: 40px;
+    width: 250px;
+    color: white;
+    background-color: rgb(255, 83, 83);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.message{
+    height: 40px;
+    width: 250px;
+    color: black;
+    background-color: rgb(160, 255, 109);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
